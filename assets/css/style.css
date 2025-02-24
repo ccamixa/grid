@@ -1,0 +1,175 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    transition: .5s;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Mariupol;
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+header{
+    box-shadow: 0px 0px 20px #3C2010;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+a{
+    color: rgb(44, 24, 7);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a:hover{
+    color: rgb(97, 73, 52);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.linkk{
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 10px;
+    padding: 10px;
+}
+
+.btn{
+    background-color: #3C2010;
+    border: 1px solid #3C2010;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    border: 1px solid #3C2010;
+    color: #3C2010;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.div{
+    display: grid;
+    margin: 30px 0px;
+    grid-template-columns: 2fr 7fr;
+    grid-column-gap: 20px;
+}
+
+.a{
+    background-color: rgb(165, 131, 101);
+    height: 540px;
+}
+
+.b{
+    display: grid;
+    grid-template-rows: 6fr 4fr;
+    grid-row-gap: 20px;
+}
+
+.i{
+    background-color: #3C2010;  
+}
+
+.c{
+    display: grid;
+    grid-template-columns: 4fr 2fr 3fr;
+    grid-column-gap: 20px;
+}
+
+.d{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2.7fr;
+    grid-column-gap: 20px;
+}
+
+h3{
+    margin: 60px 0px 30px;
+    color: rgb(44, 24, 7);
+    font-weight: 500;
+    font-size: 32px;
+}
+
+/* katalog */
+.katalog{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+}
+
+.katalog_card{
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 15px;
+    margin-bottom: 50px;
+    display: grid; 
+    place-items: center; 
+}
+
+h5{
+    font-weight: 400;
+    font-size: 18px;
+    color: #3C2010;
+    margin: 0px 0px 13px 0px;
+    text-align: center;
+}
+
+h4{
+    font-weight: 500;
+    font-size: 22px;
+    color: #3C2010;
+    text-align: center;
+}
+
+.btnn{
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #3C2010;
+    border: 1px solid #3C2010;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 90px;
+}
+
+.btnn:hover{
+    color: #3C2010;
+    background-color: #ffffff;
+    border: 1px solid #3C2010;
+}
+
+p{
+    font-weight: 500;
+    font-size: 22px;
+    color: #3C2010;
+    text-align: center;  
+}
+/* katalog */
